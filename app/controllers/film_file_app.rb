@@ -8,4 +8,8 @@ class FilmFile < Sinatra::Base
     @genres = Genre.all
     erb :genres_index
   end
+
+  get '/directors/:id' do
+
+  end
 end
